@@ -18,7 +18,7 @@
     color:rgba(255, 255, 255, 1) ;
     border: none;
     font-weight: 700;
-    padding:24px ;
+    padding:10px 24px  ;
   }
 
 
@@ -66,9 +66,7 @@ nav ul li{
 }
 .banner-btn{
     border-radius: 41px;
-    width: 195px;
-    
-}
+    }
 .banner-img{
     background-image: url(../images/Circle\ design.svg);
     background-position: center;
@@ -77,9 +75,114 @@ nav ul li{
 .logos{
 
     width: 1110px;
-    padding: 62px 36px 61px 35px;
+    
+    padding: 30px 20px 28px 20px;
     display: grid;
     margin-top: 70px;
+    /* height: 45px; */
     /* margin: 165px 0px 165px 110px; */
     grid-template-columns: repeat(7,1fr);
+   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25) ;
+}
+/* section style */
+.products-menu{
+  width: 1050px;
+  margin: 100px auto;
+  padding: 32px;
+}
+.manu-title{
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+.cards{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+}
+.card{
+  border-radius:5px ;
+  padding: 17px 14px;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.card-title{
+  font-weight: 500;
+  font-size: 28px;
+  color: rgba(24, 25, 31, 1);
+}
+.prics{
+  font-size: 24px;
+}
+.card-description{
+  color: rgba(120, 120, 133, 1);
+}
+.star{
+  color:rgba(251, 130, 0, 1);
+}
+.rate{
+  color: rgba(94, 99, 102, 1);
+}
+.see-more{
+  display: flex;
+  justify-content: flex-end;
+}
+.section-btn{
+  color:rgba(224, 44, 109, 0.87);
+  font-weight: 700;
+  margin-top: 50px;
+}
+/*  */
+.feature{
+  width: 1110px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.feature-items{
+  display: flex;
+  
+  gap: 95px;
+}
+.feature-title{
+  font-weight: 700;
+  font-size: 38px;
+  margin-bottom: 0px;
+}
+.feature-content{
+  color: rgba(108, 108, 108, 1);
+  font-weight: 700;
+  margin-top: 16px ;
+  margin-bottom: 16px;
+}
+/*  */
+footer{
+  background-color: rgba(10, 8, 38, 1);
+  padding: 50px;
+}
+.footer-items{
+width:262px ;
+height: 140px;
+margin:0px auto;
+}
+.footer-title{
+  color:rgba(255, 255, 255, 1);
+  margin-bottom:10px;
+  text-align: center;
+}
+.footer-des, .footer-copy{
+  margin-top: 10px;
+  margin-bottom: 10px;
+font-weight: 700;
+font-size: 12px;
+text-align: center;
+}
+.footer-style{
+  color: rgba(217, 219, 225, 1);
+}
+.icons{
+  color: rgba(255, 255, 255, 1);
+  gap: 16px;
+  text-align: center;
+}
+.icons-style{
+  margin-right: 16px;
 }
